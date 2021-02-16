@@ -38,12 +38,20 @@ export default defineConfig({
       },
       renderStart: {
         commands: ['echo render start'],
+        sync:true
       },
       writeBundle: {
         commands: ['echo write bundle'],
+        sync:false //default
       },
       transformIndexHtml: {
-        commands: ['echo transform that html'],
+        commands: ['echo This hook is called every update cycle','echo WIP: need to add ability to use variables from these hooks','echo I am called after we handle the module update'],
+      },
+       configureServer: {
+        commands: ['echo server has read config and been configured','WIP: need to add ability to use variables from these hooks',],
+      },
+        handleHotUpdate: {
+        commands: ['echo This hook is called every update cycle','echo I am in regards to the file being updated'],
       },
     })
   ]
