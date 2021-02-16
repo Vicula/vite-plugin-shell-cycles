@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vicula/vite-plugin-shell-cycle.git"
+    "url": "git+https://github.com/Vicula/vite-plugin-shell-cycles.git"
   },
   "keywords": [
     "vite",
@@ -17,9 +17,9 @@
   "author": "@Vicula",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Vicula/vite-plugin-shell-cycle/issues"
+    "url": "https://github.com/Vicula/vite-plugin-shell-cycles/issues"
   },
-  "homepage": "https://github.com/Vicula/vite-plugin-shell-cycle#readme",
+  "homepage": "https://github.com/Vicula/vite-plugin-shell-cycles#readme",
   "dependencies": {
     "chalk": "^4.1.0"
   }
