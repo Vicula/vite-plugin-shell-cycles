@@ -1,4 +1,4 @@
-# rollup-plugin-execute
+# vite-plugin-shell-cycles
 
 Execute shell command(s) sequentially or Synchronously at different lifecycle hooks.
 
