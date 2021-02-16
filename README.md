@@ -45,6 +45,7 @@ export default defineConfig({
       transformIndexHtml: {
         commands: ['echo transform that html'],
       },
+    })
   ]
 })
 ```
